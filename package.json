@@ -1,0 +1,68 @@
+{
+  "name": "react-af",
+  "version": "0.2.1",
+  "description": "Code using modern React features today! It does for React what Babel does for JavaScript.",
+  "author": "Donavon West <github@donavon.com> (http://donavon.com)",
+  "main": "dist/react-af.cjs.js",
+  "jsnext:main": "dist/react-af.es.js",
+  "module": "dist/react-af.es.js",
+  "scripts": {
+    "prepublishOnly": "npm test && npm run build",
+    "build": "NODE_ENV=development rollup -c",
+    "prebuild": "rimraf dist",
+    "lint": "eslint src",
+    "pretest": "npm run lint",
+    "test": "NODE_ENV=development jest"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "createContext",
+    "getDerivedStateFromProps",
+    "Fragment",
+    "polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donavon/react-af.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donavon/react-af/issues"
+  },
+  "homepage": "https://github.com/donavon/react-af#readme",
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "jest": "^22.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.56.5",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^6.0.0",
+    "rollup-plugin-flow": "^1.1.1",
+    "rollup-plugin-json": "^2.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "create-react-context": "^0.2.1"
+  }
+}
