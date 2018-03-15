@@ -1,6 +1,8 @@
 # react-af
 [![Build Status](https://travis-ci.org/donavon/react-af.svg?branch=master)](https://travis-ci.org/donavon/react-af) [![npm version](https://img.shields.io/npm/v/react-af.svg)](https://www.npmjs.com/package/react-af)
 
+![React AF graffiti wall](https://user-images.githubusercontent.com/887639/37485417-c7c50fb8-2861-11e8-8e64-363c0e02372a.png)
+
 ## TL;DR
 
 - Allows you to code using certain React.next features today!
