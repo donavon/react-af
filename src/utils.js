@@ -7,7 +7,6 @@ const setKeyOnTarget = setFn => (target, key) => {
 };
 
 export const objectWithoutProperties = (obj, keysArr) => {
-  // eslint-disable-next-line no-param-reassign
   const keys = keysArr.reduce(setKeyOnTarget(key => key), {});
   return Object.keys(obj)
     .filter(key => !keys[key])
