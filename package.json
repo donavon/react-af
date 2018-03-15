@@ -1,6 +1,6 @@
 {
   "name": "react-af",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Code using modern React features today! It does for React what Babel does for JavaScript.",
   "author": "Donavon West <github@donavon.com> (http://donavon.com)",
   "main": "dist/react-af.cjs.js",
