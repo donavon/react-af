@@ -62,6 +62,6 @@
     "rollup-plugin-uglify": "^3.0.0"
   },
   "dependencies": {
-    "create-react-context": "^0.2.1"
+    "create-react-context": "^0.3.0"
   }
 }
